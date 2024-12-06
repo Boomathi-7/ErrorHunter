@@ -7,7 +7,7 @@ def reverse_number(num):
         num //= 10
     return rev   
 if __name__ == "__main__":
-    num = int(input("Enter num : "))
+    num = int(input("Enter num: "))
     res = reverse_number(num)
     print(res)
 

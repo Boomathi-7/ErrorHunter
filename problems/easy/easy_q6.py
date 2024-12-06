@@ -6,6 +6,6 @@ def print_numbers(n):
         i += 1   
 
 if __name__ == "__main__":
-    num = int(input("Enter the Number "))
+    num = int(input("Enter the Number: "))
     res = print_numbers(num)
     print(res)

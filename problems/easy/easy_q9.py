@@ -9,6 +9,6 @@ def factorial(n):
     return result
 
 if __name__ == "__main__":
-    num = int(input("Enter the Number :"))
+    num = int(input("Enter the Number:"))
     res = factorial(num)
     print(res)

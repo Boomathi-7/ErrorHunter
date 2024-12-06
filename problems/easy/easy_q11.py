@@ -11,7 +11,7 @@ def day_of_week(day):
     }
     return switch[day]
 if __name__ == "__main__":
-    day = int(input("Enter the number(1-7) : "))
+    day = int(input("Enter the number(1-7): "))
     xcd = day_of_week(day)
     print(xcd)
     

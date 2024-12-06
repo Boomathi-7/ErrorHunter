@@ -5,6 +5,6 @@ def is_leap_year(year):
     return "Not a Leap Year"
 if __name__ == "__main__":
     
-    num = int(input("Enter the year : "))
+    num = int(input("Enter the year: "))
     res = is_leap_year(num)
     print(res)
